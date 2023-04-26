@@ -1,4 +1,3 @@
-os.getcwd():  /panfs/panfs.ittc.ku.edu/scratch/w880c134/Codes/image_caption_learning
 Example 1 CORRECT: Dog on a beach by the ocean
 Example 1 OUTPUT: mo does does craft appears slides individuals scenic medals equestrian sale ta z trick lab twisting stones rec van stores make cane relax gather genocide ##wheel cap skate machine trailing pup seeds ##hel lead ##uck shaggy ##un wine mountainous balls runner softball ##tub stares plain ##box magazine ##cle pass fabric
 Example 2 CORRECT: Child holding red frisbee outdoors
