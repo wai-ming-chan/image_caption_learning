@@ -1,0 +1,1518 @@
+os.getcwd():  /panfs/panfs.ittc.ku.edu/scratch/w880c134/Codes/image_caption_learning
+
+-------------->epoch 0/200 loss : 3.8389796084513974<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2222222222222222, 0.11433239009500591, 0.0, 0.0]
+Example 3: scores= [0.16666666666666669, 0.0990147542976674, 0.0, 0.0]
+Example 4: scores= [0.2777777777777778, 0.18077538151554684, 0.0, 0.0]
+Example 5: scores= [0.3333333333333333, 0.19802950859533483, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a man in a red shirt and a red shirt is standing on a beach . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a man in a red shirt and a red shirt is standing on a beach . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a red shirt and a red shirt is standing on a beach . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a man in a red shirt and a red shirt is standing on a beach . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man in a red shirt and a red shirt is standing on a beach . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 1/200 loss : 3.1583914410258167<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.16666666666666669, 0.0990147542976674, 0.0, 0.0]
+Example 3: scores= [0.16666666666666669, 0.0990147542976674, 0.0, 0.0]
+Example 4: scores= [0.2777777777777778, 0.18077538151554684, 0.0, 0.0]
+Example 5: scores= [0.3333333333333333, 0.19802950859533483, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is running through the grass . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a man in a blue shirt and a blue shirt is standing on a bench . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt and a blue shirt is standing on a bench . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a man in a blue shirt and a blue shirt is standing on a bike . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man in a blue shirt and a blue shirt is standing on a bench . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 2/200 loss : 2.9396315178411645<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2, 0.10259783520851541, 0.0, 0.0]
+Example 3: scores= [0.15, 0.08885233166386386, 0.0, 0.0]
+Example 4: scores= [0.25, 0.16222142113076254, 0.0, 0.0]
+Example 5: scores= [0.3333333333333333, 0.19802950859533483, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is running through the grass . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a man in a blue shirt is standing on a bench with a red and white dog . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a red shirt is standing on a bench with a red and white shirt . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a man in a black shirt is standing on a bench with a red and white dog . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man in a blue shirt is standing on a bench with a red ball . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 3/200 loss : 2.802825260313013<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.16666666666666669, 0.0990147542976674, 0.0, 0.0]
+Example 3: scores= [0.16666666666666669, 0.0990147542976674, 0.0, 0.0]
+Example 4: scores= [0.29411764705882354, 0.19174124721184263, 0.0, 0.0]
+Example 5: scores= [0.4117647058823529, 0.27785946511310566, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is running through a grassy field . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a man in a black shirt and a black shirt is standing on a bench . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a black shirt and a black shirt is standing on a bench . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a man in a blue shirt is riding a bike on a skate ##board . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man in a blue shirt is riding a bike on a skate ##board . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 4/200 loss : 2.70081802981348<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.15, 0.08885233166386386, 0.0, 0.0]
+Example 3: scores= [0.10344827586206899, 0.06078306738548309, 0.0, 0.0]
+Example 4: scores= [0.29411764705882354, 0.19174124721184263, 0.0, 0.0]
+Example 5: scores= [0.2857142857142857, 0.16903085094570333, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is running through the grass . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a man in a blue shirt is standing on a bench with a ball in his mouth . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a black shirt and a woman in a black shirt and a black shirt and a black shirt is standing on a sidewalk . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a man in a blue shirt is riding a bike on a dirt road . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man in a red shirt is standing on a bench with a woman in a black shirt . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 5/200 loss : 2.620212009544433<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2857142857142857, 0.14824986333222023, 0.0, 0.0]
+Example 3: scores= [0.16666666666666669, 0.0990147542976674, 0.0, 0.0]
+Example 4: scores= [0.38461538461538464, 0.25318484177091666, 0.0, 0.0]
+Example 5: scores= [0.4117647058823529, 0.22687130324325758, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is running through the grass . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a boy in a red shirt is jumping off a swing . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a red shirt and a black hat is standing on a sidewalk . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a man in a red shirt is climbing a rock . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man in a red shirt is standing on a rock overlooking the ocean . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 6/200 loss : 2.5515533499243137<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2857142857142857, 0.14824986333222023, 0.0, 0.0]
+Example 3: scores= [0.2, 0.11952286093343935, 0.0, 0.0]
+Example 4: scores= [0.30769230769230765, 0.22645540682891918, 0.0, 0.0]
+Example 5: scores= [0.4117647058823529, 0.27785946511310566, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is running through the grass . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a boy in a red shirt is jumping in the air . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a red shirt and a helmet riding a bike . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a man is riding a bicycle on a dirt bike . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man in a red shirt is riding a bike on a dirt road . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 7/200 loss : 2.492857813270171<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2, 0.11952286093343935, 0.0, 0.0]
+Example 3: scores= [0.14285714285714285, 0.08451542547285168, 0.0, 0.0]
+Example 4: scores= [0.30769230769230765, 0.22645540682891918, 0.0, 0.0]
+Example 5: scores= [0.35294117647058826, 0.21004201260420147, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog runs through the grass . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young girl in a pink dress is jumping over a hurdle . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a black jacket is standing on a sidewalk with a woman in a black jacket . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a man is standing on a rock overlooking a lake . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man in a red shirt is standing on a rock overlooking a lake . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 8/200 loss : 2.439489623758277<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2, 0.11952286093343935, 0.0, 0.0]
+Example 3: scores= [0.14285714285714285, 0.08451542547285168, 0.0, 0.0]
+Example 4: scores= [0.30769230769230765, 0.22645540682891918, 0.0, 0.0]
+Example 5: scores= [0.35294117647058826, 0.21004201260420147, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a black and white dog is running through the snow . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young girl in a pink shirt is jumping into a pool . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a red jacket is standing on a sidewalk with a woman in a black jacket . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a man is standing on a rock overlooking a lake . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man in a red shirt is standing on a rock overlooking a mountain . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 9/200 loss : 2.392683548949906<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.26666666666666666, 0.13801311186847082, 0.0, 0.0]
+Example 3: scores= [0.14285714285714285, 0.08451542547285168, 0.0, 0.0]
+Example 4: scores= [0.4444444444444444, 0.33333333333333337, 0.0, 0.0]
+Example 5: scores= [0.3571428571428572, 0.23440361546924776, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is running through a field of grass . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young boy wearing a red shirt is jumping off a ramp . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a red jacket is standing on a sidewalk with a woman in a black jacket . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a surfer is riding a wave . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man is standing on a rocky ledge overlooking a lake . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 10/200 loss : 2.350656666085242<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2, 0.11952286093343935, 0.0, 0.0]
+Example 3: scores= [0.10344827586206899, 0.06078306738548309, 0.0, 0.0]
+Example 4: scores= [0.30769230769230765, 0.22645540682891918, 0.0, 0.0]
+Example 5: scores= [0.35294117647058826, 0.21004201260420147, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog runs through the grass . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little girl in a pink shirt is running through a field . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a black shirt and a white shirt is standing on a sidewalk with a woman in a black shirt and a white shirt . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a man is standing on a rock overlooking a lake . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man in a blue shirt is standing on a rock overlooking a mountain . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 11/200 loss : 2.310672812740573<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.15789473684210523, 0.09365858115816939, 0.0, 0.0]
+Example 3: scores= [0.12000000000000001, 0.07071067811865474, 0.0, 0.0]
+Example 4: scores= [0.3571428571428572, 0.23440361546924776, 0.0, 0.0]
+Example 5: scores= [0.4375, 0.2958039891549808, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is running through the snow . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young girl in a pink shirt and jeans is running through a field of grass . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a red shirt is standing on a sidewalk with a woman in a black shirt and a white shirt . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a man in a blue shirt is surfing on a wave . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man and a woman are sitting on a bench in the snow . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 12/200 loss : 2.2738489479438577<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2, 0.11952286093343935, 0.0, 0.0]
+Example 3: scores= [0.12000000000000001, 0.07071067811865474, 0.0, 0.0]
+Example 4: scores= [0.2857142857142857, 0.20965696734438366, 0.0, 0.0]
+Example 5: scores= [0.38461538461538464, 0.25318484177091666, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is running through the snow . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little girl in a pink dress is playing in a field . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a black shirt and a white shirt is standing on a sidewalk with a woman in a black shirt . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a man is standing on a rocky cliff overlooking a lake . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man is standing on a rock overlooking a valley . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 13/200 loss : 2.239026947985705<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.17647058823529413, 0.10502100630210073, 0.0, 0.0]
+Example 3: scores= [0.12500000000000003, 0.07372097807744855, 0.0, 0.0]
+Example 4: scores= [0.30769230769230765, 0.22645540682891918, 0.0, 0.0]
+Example 5: scores= [0.38461538461538464, 0.25318484177091666, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is running through the snow . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young girl in a pink shirt is jumping on a tram ##pol ##ine . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a black shirt and a white shirt is standing on a sidewalk with a black and white dog . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a man is standing on a rock overlooking a lake . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man is standing on a rock overlooking a valley . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 14/200 loss : 2.207715812264272<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2, 0.11952286093343935, 0.0, 0.0]
+Example 3: scores= [0.10344827586206899, 0.06078306738548309, 0.0, 0.0]
+Example 4: scores= [0.4, 0.2981423969999719, 0.0, 0.0]
+Example 5: scores= [0.375, 0.223606797749979, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is running through the grass . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little girl in a pink shirt is running through a field . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a black shirt and a white shirt is standing on a sidewalk with a woman in a black jacket and a white shirt . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a man is climbing a rock face . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man and a woman are sitting on a rock overlooking the mountains . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 15/200 loss : 2.1764107157268797<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2, 0.11952286093343935, 0.0, 0.0]
+Example 3: scores= [0.14285714285714285, 0.08451542547285168, 0.0, 0.0]
+Example 4: scores= [0.30769230769230765, 0.22645540682891918, 0.0, 0.0]
+Example 5: scores= [0.38461538461538464, 0.25318484177091666, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is running through a field . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little girl in a pink shirt is running through a field . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a red jacket is standing on a sidewalk with a woman in a black jacket . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a man is standing on a cliff overlooking a lake . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a group of people are standing on a mountain ##top . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 16/200 loss : 2.1472614110928574<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.17647058823529413, 0.10502100630210073, 0.0, 0.0]
+Example 3: scores= [0.15789473684210523, 0.09365858115816939, 0.0, 0.0]
+Example 4: scores= [0.4444444444444444, 0.33333333333333337, 0.0, 0.0]
+Example 5: scores= [0.4166666666666667, 0.27524094128159016, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is running through a field . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young girl in a pink shirt is jumping on a tram ##pol ##ine . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a black shirt and jeans is standing in front of a brick wall . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a man is surfing a wave . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a group of people are standing on a beach . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 17/200 loss : 2.120507170803739<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2, 0.11952286093343935, 0.0, 0.0]
+Example 3: scores= [0.15789473684210523, 0.09365858115816939, 0.0, 0.0]
+Example 4: scores= [0.3333333333333333, 0.24618298195866542, 0.0, 0.0]
+Example 5: scores= [0.3125, 0.20412414523193154, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is running through a field . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little girl in a pink shirt is running through a field . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a black shirt and jeans is standing in front of a brick wall . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a man is standing on top of a mountain . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a group of people are standing on a rocky ledge overlooking a valley . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 18/200 loss : 2.095600729681681<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2, 0.11952286093343935, 0.0, 0.0]
+Example 3: scores= [0.15, 0.08885233166386386, 0.0, 0.0]
+Example 4: scores= [0.30769230769230765, 0.22645540682891918, 0.0, 0.0]
+Example 5: scores= [0.3125, 0.20412414523193154, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is running through a field . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little girl in a pink shirt is swinging on a swing . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a black shirt and jeans is standing on a sidewalk with a skate ##board . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a man is standing on a rock overlooking a valley . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a group of people are standing on a rocky ledge overlooking a valley . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 19/200 loss : 2.0706915405312607<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2, 0.11952286093343935, 0.0, 0.0]
+Example 3: scores= [0.15789473684210523, 0.09365858115816939, 0.0, 0.0]
+Example 4: scores= [0.36363636363636365, 0.26967994498529685, 0.0, 0.0]
+Example 5: scores= [0.3, 0.17770466332772766, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog runs through the woods . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little girl in a pink shirt is swinging on a swing . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt and jeans is standing in front of a brick wall . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a skier is skiing down a snowy hill . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man in a blue shirt and jeans is standing on a rock with a fishing pole . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 20/200 loss : 2.047064754823561<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2, 0.11952286093343935, 0.0, 0.0]
+Example 3: scores= [0.12000000000000001, 0.07071067811865474, 0.0, 0.0]
+Example 4: scores= [0.36363636363636365, 0.26967994498529685, 0.0, 0.0]
+Example 5: scores= [0.3125, 0.20412414523193154, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog runs through the grass . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little girl in a pink shirt is jumping off a swing . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt is standing on a sidewalk with a woman in a black jacket and a white shirt . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a skier is skiing down a snowy hill . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man and a woman are standing on a rock overlooking a valley . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 21/200 loss : 2.0248794163949495<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.15789473684210523, 0.09365858115816939, 0.0, 0.0]
+Example 3: scores= [0.15789473684210523, 0.09365858115816939, 0.0, 0.0]
+Example 4: scores= [0.3333333333333333, 0.24618298195866542, 0.0, 0.0]
+Example 5: scores= [0.3333333333333333, 0.21821789023599233, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is jumping over a hurdle . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young girl wearing a pink shirt and blue jeans is running through a grassy area . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a black shirt and jeans is standing in front of a brick wall . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a man is standing on top of a mountain . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a group of people are standing on a rock overlooking a valley . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 22/200 loss : 2.0047055303956283<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.17647058823529413, 0.10502100630210073, 0.0, 0.0]
+Example 3: scores= [0.17647058823529413, 0.10502100630210073, 0.0, 0.0]
+Example 4: scores= [0.36363636363636365, 0.26967994498529685, 0.0, 0.0]
+Example 5: scores= [0.38461538461538464, 0.17902871850985821, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog jumps over a hurdle . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little girl in a pink shirt is jumping on a tram ##pol ##ine . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt is standing in front of a large building . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a man is skiing down a snowy mountain . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people are standing on a rock overlooking a valley . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 23/200 loss : 1.9850019551754752<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.17647058823529413, 0.10502100630210073, 0.0, 0.0]
+Example 3: scores= [0.15789473684210523, 0.09365858115816939, 0.0, 0.0]
+Example 4: scores= [0.3333333333333333, 0.21821789023599233, 0.0, 0.0]
+Example 5: scores= [0.38461538461538464, 0.17902871850985821, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog jumps over a hurdle . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little girl in a pink shirt is jumping on a tram ##pol ##ine . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt and jeans is standing in front of a large building . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person in a red jacket is skiing down a snowy hill . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people are sitting on a rock overlooking a valley . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 24/200 loss : 1.9650558611792976<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.1875, 0.11180339887498951, 0.0, 0.0]
+Example 3: scores= [0.1875, 0.11180339887498951, 0.0, 0.0]
+Example 4: scores= [0.3333333333333333, 0.21821789023599233, 0.0, 0.0]
+Example 5: scores= [0.38461538461538464, 0.25318484177091666, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is running through a grassy area . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little girl in a pink shirt is running through a grassy area . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a black jacket is standing in front of a store . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person in a red jacket is skiing down a snowy hill . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man is standing on a rock overlooking a valley . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 25/200 loss : 1.9469007074738753<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.1875, 0.11180339887498951, 0.0, 0.0]
+Example 3: scores= [0.15789473684210523, 0.09365858115816939, 0.0, 0.0]
+Example 4: scores= [0.4, 0.2981423969999719, 0.0, 0.0]
+Example 5: scores= [0.36193496721438384, 0.19075647687597008, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog runs through the grass . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young girl wearing a pink shirt is running through a grassy field . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a black shirt and jeans is standing in front of a white building . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a man is climbing a rock face . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people are walking along a beach . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 26/200 loss : 1.9259305949459709<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.17647058823529413, 0.10502100630210073, 0.0, 0.0]
+Example 3: scores= [0.15789473684210523, 0.09365858115816939, 0.0, 0.0]
+Example 4: scores= [0.3333333333333333, 0.21821789023599233, 0.0, 0.0]
+Example 5: scores= [0.3571428571428572, 0.23440361546924776, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is jumping over a hurdle . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little girl in a pink dress is running through a field of flowers . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a black shirt and jeans is standing in front of a brick wall . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person in a red jacket is skiing down a snowy mountain . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man and a woman are walking past a decorative bridge . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 27/200 loss : 1.911078325191757<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.1875, 0.11180339887498951, 0.0, 0.0]
+Example 3: scores= [0.11111111111111109, 0.06537204504606134, 0.0, 0.0]
+Example 4: scores= [0.36363636363636365, 0.26967994498529685, 0.0, 0.0]
+Example 5: scores= [0.3157894736842105, 0.1873171623163388, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is running through a field . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little girl in a pink dress is playing with a tennis ball . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt and jeans is standing in front of a store with a red and white umbrella on his head . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a man is skiing down a snowy hill . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man in a black shirt and jeans is standing in front of a large building . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 28/200 loss : 1.8923260265428685<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.17647058823529413, 0.10502100630210073, 0.0, 0.0]
+Example 3: scores= [0.16666666666666669, 0.0990147542976674, 0.0, 0.0]
+Example 4: scores= [0.375, 0.27386127875258304, 0.0, 0.0]
+Example 5: scores= [0.2777777777777778, 0.18077538151554684, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog jumps over a log in the woods . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young girl in a pink shirt is running through a field of flowers . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a black shirt is standing in front of a red brick wall . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is in the snow with a snow ##board in the air . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a group of people are standing on a beach with a scenic view behind them . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 29/200 loss : 1.8768113572827259<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.15789473684210523, 0.09365858115816939, 0.0, 0.0]
+Example 3: scores= [0.15789473684210523, 0.09365858115816939, 0.0, 0.0]
+Example 4: scores= [0.35294117647058826, 0.2572478777137633, 0.0, 0.0]
+Example 5: scores= [0.38461538461538464, 0.25318484177091666, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog jumps over a barrier . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little girl in a pink shirt and blue jeans is running through a grassy area . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a black shirt and jeans is standing in front of a brick wall . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a man is standing on a rock in the middle of a snowy mountain . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man and a woman are standing on a street . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 30/200 loss : 1.8615295709968556<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.17647058823529413, 0.10502100630210073, 0.0, 0.0]
+Example 3: scores= [0.1153846153846154, 0.06793662204867576, 0.0, 0.0]
+Example 4: scores= [0.46153846153846156, 0.33968311024337877, 0.0, 0.0]
+Example 5: scores= [0.3571428571428572, 0.23440361546924776, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is jumping in the air to catch a ball . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young girl in a pink shirt and jeans is jumping off a swing . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt and jeans is standing in front of a store with a red ##bu ##ll logo on it . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is in the air on a snow ##board . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man and a woman are walking past a decorative building . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 31/200 loss : 1.8438975102905226<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.15789473684210523, 0.09365858115816939, 0.0, 0.0]
+Example 3: scores= [0.14285714285714285, 0.08451542547285168, 0.0, 0.0]
+Example 4: scores= [0.4166666666666667, 0.27524094128159016, 0.0, 0.0]
+Example 5: scores= [0.375, 0.223606797749979, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is running through the water . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little girl in a pink shirt and blue jeans is running through a grassy area . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a black shirt and jeans is sitting on a bench in front of a building . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a man is rowing a boat on a lake . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man and a woman are sitting on a bench in a park . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 32/200 loss : 1.8285312946373817<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2, 0.11952286093343935, 0.0, 0.0]
+Example 3: scores= [0.15789473684210523, 0.09365858115816939, 0.0, 0.0]
+Example 4: scores= [0.46153846153846156, 0.33968311024337877, 0.0, 0.0]
+Example 5: scores= [0.38461538461538464, 0.17902871850985821, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is running through a field of grass . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young girl in a pink shirt is swinging on a swing . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a black shirt and jeans is standing in front of a brick wall . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is in the snow with a snow ##board . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two men are standing in front of a large building . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 33/200 loss : 1.8150513381189644<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.25, 0.1507556722888818, 0.0, 0.0]
+Example 3: scores= [0.1875, 0.11180339887498951, 0.0, 0.0]
+Example 4: scores= [0.3333333333333333, 0.24618298195866542, 0.0, 0.0]
+Example 5: scores= [0.3499999999999999, 0.23508117299081357, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is running through a field . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young girl wearing a pink shirt is swinging . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a black shirt and jeans is walking down a sidewalk . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is standing on top of a mountain . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a group of people are standing on a sidewalk with a large wooden structure in the background . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 34/200 loss : 1.7995019388424842<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.1875, 0.11180339887498951, 0.0, 0.0]
+Example 3: scores= [0.17647058823529413, 0.10502100630210073, 0.0, 0.0]
+Example 4: scores= [0.30769230769230765, 0.22645540682891918, 0.0, 0.0]
+Example 5: scores= [0.3684210526315789, 0.24779731389167603, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog runs through the woods . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little girl in a pink shirt is running through a grassy area . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a black jacket is standing in front of a brick wall . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a snow ##board ##er is jumping over a snowy hill . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man and a woman are sitting on a bench in the middle of a cave . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 35/200 loss : 1.787091797562007<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2, 0.11952286093343935, 0.0, 0.0]
+Example 3: scores= [0.14285714285714285, 0.08451542547285168, 0.0, 0.0]
+Example 4: scores= [0.375, 0.27386127875258304, 0.0, 0.0]
+Example 5: scores= [0.3571428571428572, 0.23440361546924776, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is running through a field . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little girl in a pink shirt is swinging on a swing . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man is standing on a sidewalk with a woman in a black jacket and a white shirt . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is standing on a rock in the middle of a cave . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man and a woman are walking past a decorative bridge . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 36/200 loss : 1.7728769718941542<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.1875, 0.11180339887498951, 0.0, 0.0]
+Example 3: scores= [0.1875, 0.11180339887498951, 0.0, 0.0]
+Example 4: scores= [0.375, 0.223606797749979, 0.0, 0.0]
+Example 5: scores= [0.4166666666666667, 0.19462473604038075, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is running through a field . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young girl in a pink dress is blowing bubbles in a park . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a black shirt and jeans is walking down a sidewalk . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person in a red kay ##ak is pad ##dling through the water . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people sit on a bench outside a building . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 37/200 loss : 1.7600174652644998<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2, 0.11952286093343935, 0.0, 0.0]
+Example 3: scores= [0.2727272727272727, 0.1651445647689541, 0.0, 0.0]
+Example 4: scores= [0.36363636363636365, 0.26967994498529685, 0.0, 0.0]
+Example 5: scores= [0.38461538461538464, 0.17902871850985821, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog jumps to catch a ball in the air . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young girl wearing a pink shirt is swinging in a swing . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man is standing outside of a building . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is standing on a snowy mountain . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> three people are standing on a rock overlooking a river . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 38/200 loss : 1.7464907809644703<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2, 0.11952286093343935, 0.0, 0.0]
+Example 3: scores= [0.16666666666666669, 0.0990147542976674, 0.0, 0.0]
+Example 4: scores= [0.46153846153846156, 0.33968311024337877, 0.0, 0.0]
+Example 5: scores= [0.5, 0.21320071635561041, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is jumping up to catch a fr ##is ##bee . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little girl in a pink dress is running through a field . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a black shirt and jeans is standing in front of a <UNK> . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is in the air on a surf ##board . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people sit on a bench in a park . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 39/200 loss : 1.7336451141001865<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2, 0.11952286093343935, 0.0, 0.0]
+Example 3: scores= [0.17647058823529413, 0.10502100630210073, 0.0, 0.0]
+Example 4: scores= [0.5, 0.3692744729379982, 0.0, 0.0]
+Example 5: scores= [0.38461538461538464, 0.17902871850985821, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is running through a field . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little girl in a pink shirt is swinging in a swing . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a black shirt is standing in front of a white building . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is in the air above the snow . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people stand on a dock looking at a lake . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 40/200 loss : 1.7203529438512961<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2, 0.11952286093343935, 0.0, 0.0]
+Example 3: scores= [0.2727272727272727, 0.1651445647689541, 0.0, 0.0]
+Example 4: scores= [0.375, 0.27386127875258304, 0.0, 0.0]
+Example 5: scores= [0.38461538461538464, 0.17902871850985821, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is running through a grassy area . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little girl in a pink shirt is swinging in a swing . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man is standing outside of a building . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is in the air with a snow ##board in the background . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people are sitting on a rock overlooking a valley . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 41/200 loss : 1.708651406881745<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.16666666666666669, 0.0990147542976674, 0.0, 0.0]
+Example 3: scores= [0.13043478260869565, 0.07699905035090181, 0.0, 0.0]
+Example 4: scores= [0.3333333333333333, 0.21821789023599233, 0.0, 0.0]
+Example 5: scores= [0.38461538461538464, 0.17902871850985821, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is jumping in the air to catch a ball . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young girl in a pink dress is blowing bubbles in a dan ##del ##ion . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt is standing in front of a brick wall with a red flag on it . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person in a red jacket is skiing down a snowy hill . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people are sitting on a rock overlooking a valley . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 42/200 loss : 1.696438737013517<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.23076923076923078, 0.1386750490563073, 0.0, 0.0]
+Example 3: scores= [0.21428571428571425, 0.12838814775327384, 0.0, 0.0]
+Example 4: scores= [0.375, 0.27386127875258304, 0.0, 0.0]
+Example 5: scores= [0.4375, 0.24152294576982403, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog jumps over a pole . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young boy wearing a blue shirt is blowing bubbles . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man is sitting on a bench with his shoes off . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is in the snow with a snow ##board in the background . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people are walking along a beach with a city in the background . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 43/200 loss : 1.6878647030247331<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2, 0.11952286093343935, 0.0, 0.0]
+Example 3: scores= [0.17647058823529413, 0.10502100630210073, 0.0, 0.0]
+Example 4: scores= [0.5, 0.3692744729379982, 0.0, 0.0]
+Example 5: scores= [0.36193496721438384, 0.19075647687597008, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is running through a swamp ##y area with a stick in its mouth . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little girl in a pink shirt is swinging in a swing . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a black jacket is standing in front of a white building . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is in the air above the water . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people are walking through a park . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 44/200 loss : 1.6745675419932482<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.15789473684210523, 0.09365858115816939, 0.0, 0.0]
+Example 3: scores= [0.17647058823529413, 0.10502100630210073, 0.0, 0.0]
+Example 4: scores= [0.30769230769230765, 0.22645540682891918, 0.0, 0.0]
+Example 5: scores= [0.35294117647058826, 0.21004201260420147, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog jumps to catch a fr ##is ##bee . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little girl in a pink shirt and blue jeans is swinging on a rope swing . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt is standing in front of a brick wall . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is standing on a hill overlooking a valley . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man and a woman are sitting on a bench in a park bench . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 45/200 loss : 1.6639482916625568<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.16666666666666669, 0.0990147542976674, 0.0, 0.0]
+Example 3: scores= [0.1875, 0.11180339887498951, 0.0, 0.0]
+Example 4: scores= [0.5, 0.3692744729379982, 0.0, 0.0]
+Example 5: scores= [0.45241870901797976, 0.30161247267865315, 0.21750022031960448, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog jumps to catch a ball in a field . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little girl in a pink shirt and jeans is swinging on a rope swing . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt is standing in front of a skyscraper . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is in the air above the water . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people are walking along a desert . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 46/200 loss : 1.6517763795069231<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2, 0.11952286093343935, 0.0, 0.0]
+Example 3: scores= [0.2727272727272727, 0.1651445647689541, 0.0, 0.0]
+Example 4: scores= [0.5, 0.3692744729379982, 0.0, 0.0]
+Example 5: scores= [0.3571428571428572, 0.23440361546924776, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is jumping up to catch a ball in the sand . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little girl in a pink shirt is running through a field . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man is standing outside of a building . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is in the air above the water . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man and a woman are walking past a decorative building . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 47/200 loss : 1.641948587898206<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2, 0.11952286093343935, 0.0, 0.0]
+Example 3: scores= [0.17391304347826086, 0.08891084489487741, 0.0, 0.0]
+Example 4: scores= [0.4166666666666667, 0.27524094128159016, 0.0, 0.0]
+Example 5: scores= [0.4166666666666667, 0.19462473604038075, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is running through a grassy area . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young boy wearing a blue shirt is playing in a swing . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a black shirt is standing in front of a brick wall with a red bus on it . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person in a red jacket is snow ##boarding . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people stand on a cliff overlooking the ocean . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 48/200 loss : 1.6317502631207024<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2, 0.11952286093343935, 0.0, 0.0]
+Example 3: scores= [0.1875, 0.11180339887498951, 0.0, 0.0]
+Example 4: scores= [0.5, 0.3692744729379982, 0.0, 0.0]
+Example 5: scores= [0.38461538461538464, 0.17902871850985821, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is running through a grassy area . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young boy wearing a blue shirt is playing in a swing . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt is standing in front of a <UNK> . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is in the air above the snow . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people are sitting on a rock overlooking a valley . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 49/200 loss : 1.6216849318424484<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.16666666666666669, 0.0990147542976674, 0.0, 0.0]
+Example 3: scores= [0.15789473684210523, 0.09365858115816939, 0.0, 0.0]
+Example 4: scores= [0.2777777777777778, 0.18077538151554684, 0.0, 0.0]
+Example 5: scores= [0.2857142857142857, 0.14824986333222023, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is running through a field . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little girl in a pink shirt and blue jeans is swinging in a swing . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt and jeans is sitting on a bench reading a book . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person in a red jacket and black pants is skiing down a snowy hill . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people are walking along a beach with sea ##gul ##ls . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 50/200 loss : 1.6130083111978444<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.23076923076923078, 0.1386750490563073, 0.0, 0.0]
+Example 3: scores= [0.14285714285714285, 0.08451542547285168, 0.0, 0.0]
+Example 4: scores= [0.5, 0.3692744729379982, 0.0, 0.0]
+Example 5: scores= [0.38461538461538464, 0.17902871850985821, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is running through a grassy area . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little boy in a blue shirt is blowing bubbles . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue jacket is standing in front of a brick wall with pictures on it . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is in the air above the water . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people are sitting on a rock overlooking a valley . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 51/200 loss : 1.602078026881527<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2, 0.11952286093343935, 0.0, 0.0]
+Example 3: scores= [0.2, 0.11952286093343935, 0.0, 0.0]
+Example 4: scores= [0.46153846153846156, 0.33968311024337877, 0.0, 0.0]
+Example 5: scores= [0.3571428571428572, 0.165748386032949, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is jumping in the air to catch a fr ##is ##bee . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little girl in a pink shirt is swinging in a swing . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man is sitting on a bench in front of a building . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is in the water with a world festival . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people are sitting on a wooden bench by the water . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 52/200 loss : 1.5933660502305715<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.26666666666666666, 0.13801311186847082, 0.0, 0.0]
+Example 3: scores= [0.17647058823529413, 0.10502100630210073, 0.0, 0.0]
+Example 4: scores= [0.30769230769230765, 0.22645540682891918, 0.0, 0.0]
+Example 5: scores= [0.35588329018524795, 0.18873561585072657, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is jumping up at a ball held by a man wearing a blue shirt . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little boy in a red shirt is standing in the sand . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt is standing in front of a brick wall . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is standing on a hill overlooking a waterfall . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people sit on a bench . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 53/200 loss : 1.5831506346450974<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2, 0.10259783520851541, 0.0, 0.0]
+Example 3: scores= [0.16666666666666669, 0.0990147542976674, 0.0, 0.0]
+Example 4: scores= [0.2777777777777778, 0.18077538151554684, 0.0, 0.0]
+Example 5: scores= [0.38461538461538464, 0.17902871850985821, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is jumping up to catch a ball in the air . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young boy wearing a blue shirt and blue jeans is smiling while holding a green apple . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt is standing in front of a red brick building . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person in a red jacket and blue pants is skiing down a snowy mountain . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people are sitting on a rock overlooking a valley . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 54/200 loss : 1.5733005298069114<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.21428571428571425, 0.12838814775327384, 0.0, 0.0]
+Example 3: scores= [0.16666666666666669, 0.0990147542976674, 0.0, 0.0]
+Example 4: scores= [0.30769230769230765, 0.22645540682891918, 0.0, 0.0]
+Example 5: scores= [0.3888888888888889, 0.2138963159732493, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is jumping up to catch a red ball . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little boy is playing with a toy in the yard . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt is standing in front of a red brick building . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is standing on a hill overlooking a waterfall . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people are walking towards a decorative railing with a large snake in the background . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 55/200 loss : 1.5647104325076038<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.25, 0.1507556722888818, 0.0, 0.0]
+Example 3: scores= [0.09374999999999999, 0.05499266813300748, 0.0, 0.0]
+Example 4: scores= [0.29411764705882354, 0.19174124721184263, 0.0, 0.0]
+Example 5: scores= [0.5, 0.30151134457776363, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is jumping into a pond . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little boy is playing with a foam bat . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt is standing in front of a <UNK> brick wall with a sign that says " <UNK> ' <UNK> ' <UNK> ' s " . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person in a red jacket and blue pants is on a snowy mountain . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people sit on a bench in the park . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 56/200 loss : 1.556422135841225<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.3571428571428572, 0.165748386032949, 0.0, 0.0]
+Example 3: scores= [0.17647058823529413, 0.10502100630210073, 0.0, 0.0]
+Example 4: scores= [0.30769230769230765, 0.22645540682891918, 0.0, 0.0]
+Example 5: scores= [0.36363636363636365, 0.19069251784911848, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is jumping into a pond . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a child in a red shirt is swinging on a swing . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man is standing on a sidewalk with a yellow and black tiled floor . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is standing on a hill overlooking a waterfall . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people are walking towards a decorative bridge . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 57/200 loss : 1.5481986833786323<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2, 0.11952286093343935, 0.0, 0.0]
+Example 3: scores= [0.14285714285714285, 0.08451542547285168, 0.0, 0.0]
+Example 4: scores= [0.38461538461538464, 0.25318484177091666, 0.0, 0.0]
+Example 5: scores= [0.38461538461538464, 0.25318484177091666, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog jumps to catch a ball in the sand . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young boy wearing a blue shirt is playing in the mud . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt is standing in front of a sign that says " hell " . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is standing on a hill above the water . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man and a woman are sitting on a dock . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 58/200 loss : 1.539068266490436<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.25, 0.1507556722888818, 0.0, 0.0]
+Example 3: scores= [0.1875, 0.11180339887498951, 0.0, 0.0]
+Example 4: scores= [0.42857142857142855, 0.3144854510165755, 0.0, 0.0]
+Example 5: scores= [0.35588329018524795, 0.18873561585072657, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is jumping in the air to catch a ball . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a boy in a blue shirt is blowing bubbles . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt and jeans is sitting in a window . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person in a yellow rain ##coat is in the water . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people sit on a dock . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 59/200 loss : 1.5309850030224093<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.25, 0.1507556722888818, 0.0, 0.0]
+Example 3: scores= [0.15789473684210523, 0.09365858115816939, 0.0, 0.0]
+Example 4: scores= [0.5, 0.3692744729379982, 0.0, 0.0]
+Example 5: scores= [0.29411764705882354, 0.19174124721184263, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is jumping in the air to catch a ball . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a boy in a blue shirt is blowing bubbles . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt and jeans is sitting on a bench reading a book . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is in the air above the water . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man and a woman are walking past a tree on a rural path . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 60/200 loss : 1.5214707173442388<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.13333333333333333, 0.0, 0.0, 0.0]
+Example 3: scores= [0.17647058823529413, 0.10502100630210073, 0.0, 0.0]
+Example 4: scores= [0.4666666666666667, 0.36514837167011077, 0.21726933828428677, 0.0]
+Example 5: scores= [0.35588329018524795, 0.18873561585072657, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is jumping up to catch a ball in its mouth . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young boy wearing a blue shirt is playing in a mud puddle <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt is standing in front of a white building . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is para ##sai ##ling in the ocean with a parachute . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people sit on a bench . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 61/200 loss : 1.5132213437350064<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2222222222222222, 0.11433239009500591, 0.0, 0.0]
+Example 3: scores= [0.2727272727272727, 0.1651445647689541, 0.0, 0.0]
+Example 4: scores= [0.3157894736842105, 0.2294157338705618, 0.0, 0.0]
+Example 5: scores= [0.4166666666666667, 0.19462473604038075, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is running through a field of yellow flowers . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young boy wearing a blue shirt and blue jeans is holding a fishing pole . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man is standing outside of a building . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is in the middle of a body of water while another man is skiing . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people sit on a bench near a lake . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 62/200 loss : 1.5061754118209767<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.1875, 0.11180339887498951, 0.0, 0.0]
+Example 3: scores= [0.1875, 0.11180339887498951, 0.0, 0.0]
+Example 4: scores= [0.3125, 0.20412414523193154, 0.0, 0.0]
+Example 5: scores= [0.36193496721438384, 0.19075647687597008, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is running through a grassy area . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little boy in a striped shirt is running through a forested area . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt is standing in front of a <UNK> . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person in a red jacket is standing on top of a mountain . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> three people are walking along a beach . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 63/200 loss : 1.4989188813485241<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.26666666666666666, 0.13801311186847082, 0.0, 0.0]
+Example 3: scores= [0.15789473684210523, 0.09365858115816939, 0.0, 0.0]
+Example 4: scores= [0.4, 0.2981423969999719, 0.0, 0.0]
+Example 5: scores= [0.3333333333333333, 0.21821789023599233, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is running on the sand . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a child in a blue shirt is standing in a grassy field . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man is sitting on a bench in a park with a black and white umbrella . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is surfing a big wave . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a group of people are standing on a rock overlooking a hillside . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 64/200 loss : 1.48924658968927<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.17647058823529413, 0.10502100630210073, 0.0, 0.0]
+Example 3: scores= [0.17647058823529413, 0.10502100630210073, 0.0, 0.0]
+Example 4: scores= [0.5833333333333334, 0.5149286505444373, 0.43006930295345636, 0.3646285861936466]
+Example 5: scores= [0.35588329018524795, 0.18873561585072657, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is running through a field . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little boy in a blue shirt is playing with a water sp ##out . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt is standing in front of a reception desk . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is para ##sai ##ling in the ocean . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people sit on a bench . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 65/200 loss : 1.4839789722391403<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2, 0.11952286093343935, 0.0, 0.0]
+Example 3: scores= [0.17647058823529413, 0.10502100630210073, 0.0, 0.0]
+Example 4: scores= [0.3684210526315789, 0.2861316917596507, 0.16887329539234036, 0.0]
+Example 5: scores= [0.5, 0.30151134457776363, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is running across a grassy field . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young boy wearing a blue shirt is swinging in a swing . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a white shirt is standing in front of a yellow building . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is para ##sai ##ling in the ocean with a parachute attached to the right . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a couple walking down the street carrying a backpack . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 66/200 loss : 1.4754618340382266<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.1875, 0.11180339887498951, 0.0, 0.0]
+Example 3: scores= [0.17647058823529413, 0.10502100630210073, 0.0, 0.0]
+Example 4: scores= [0.4666666666666667, 0.36514837167011077, 0.21726933828428677, 0.0]
+Example 5: scores= [0.3571428571428572, 0.23440361546924776, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is running through a grassy area . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little boy in a blue shirt is playing with a water gun . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt is standing in front of a reception desk . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person in a yellow rain ##coat seating on a small boat . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a group of people sit on a bench outside a building . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 67/200 loss : 1.4664400170011356<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.17647058823529413, 0.10502100630210073, 0.0, 0.0]
+Example 3: scores= [0.14285714285714285, 0.08451542547285168, 0.0, 0.0]
+Example 4: scores= [0.4666666666666667, 0.36514837167011077, 0.21726933828428677, 0.0]
+Example 5: scores= [0.35588329018524795, 0.18873561585072657, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is jumping into the air . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little boy is playing with a water hose and a large foam toy . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt is standing in front of a brick wall with pictures on it . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is para ##sai ##ling in the ocean with a parachute . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people sit on a dock . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 68/200 loss : 1.4602752752590331<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.25, 0.1507556722888818, 0.0, 0.0]
+Example 3: scores= [0.1875, 0.11180339887498951, 0.0, 0.0]
+Example 4: scores= [0.5, 0.3692744729379982, 0.0, 0.0]
+Example 5: scores= [0.36193496721438384, 0.19075647687597008, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is jumping in the air to catch a ball . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young boy wearing a blue shirt blows bubbles . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue jacket is standing in front of a building . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is in the air above the water . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people sit on a park bench . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 69/200 loss : 1.452481088291789<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.1875, 0.11180339887498951, 0.0, 0.0]
+Example 3: scores= [0.17647058823529413, 0.10502100630210073, 0.0, 0.0]
+Example 4: scores= [0.5, 0.3692744729379982, 0.0, 0.0]
+Example 5: scores= [0.36193496721438384, 0.19075647687597008, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is running on the sand . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young boy wearing a blue shirt is running through a forested area . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt is standing in front of a red truck . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is in the air above the water . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people sit on a park bench . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 70/200 loss : 1.4467775851817681<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.21428571428571425, 0.12838814775327384, 0.0, 0.0]
+Example 3: scores= [0.1875, 0.11180339887498951, 0.0, 0.0]
+Example 4: scores= [0.4666666666666667, 0.36514837167011077, 0.21726933828428677, 0.0]
+Example 5: scores= [0.3571428571428572, 0.165748386032949, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is running on the sand . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little boy in a blue shirt is pointing at something . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue jacket is standing in front of a <UNK> . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is para ##sai ##ling in the ocean with a parachute . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> three people are standing on a rock ledge overlooking the ocean . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 71/200 loss : 1.4412286287235423<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2222222222222222, 0.11433239009500591, 0.0, 0.0]
+Example 3: scores= [0.17647058823529413, 0.10502100630210073, 0.0, 0.0]
+Example 4: scores= [0.2777777777777778, 0.18077538151554684, 0.0, 0.0]
+Example 5: scores= [0.35588329018524795, 0.18873561585072657, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is jumping in the air to catch a ball in its mouth . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a boy in a blue shirt is smiling while holding a green and yellow toy . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue jacket is standing in front of a brick building . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person in a red jacket and blue pants is skiing down a snowy hill . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> three people sit on a bench . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 72/200 loss : 1.4341555685040321<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.1875, 0.11180339887498951, 0.0, 0.0]
+Example 3: scores= [0.13636363636363635, 0.08058229640253801, 0.0, 0.0]
+Example 4: scores= [0.5, 0.3692744729379982, 0.0, 0.0]
+Example 5: scores= [0.3571428571428572, 0.165748386032949, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is jumping into the air to catch a ball in its mouth . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young boy wearing a blue shirt is playing in a mud puddle . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt is standing in front of a brick wall with a sign on it . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is in the air above the water . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people are sitting on a wooden bench by the ocean . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 73/200 loss : 1.4284850210186806<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.15789473684210523, 0.09365858115816939, 0.0, 0.0]
+Example 3: scores= [0.3, 0.18257418583505533, 0.0, 0.0]
+Example 4: scores= [0.42857142857142855, 0.3144854510165755, 0.0, 0.0]
+Example 5: scores= [0.36193496721438384, 0.19075647687597008, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is running through a field . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a little boy in a blue shirt and ka ##ki shorts is playing on a swing . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man stands on a street corner . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is in the water and throwing their shoes off . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> three people are walking on a beach . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 74/200 loss : 1.4193293421189368<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.14285714285714285, 0.08451542547285168, 0.0, 0.0]
+Example 3: scores= [0.3, 0.18257418583505533, 0.0, 0.0]
+Example 4: scores= [0.5454545454545454, 0.40451991747794525, 0.0, 0.0]
+Example 5: scores= [0.35588329018524795, 0.18873561585072657, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is running across a low cut field of grass . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young boy wearing a blue shirt and blue jeans is smiling as he stands in the grass . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man stands on a street corner . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is in the water and ice . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> three people sit on a bench . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 75/200 loss : 1.4114392483592222<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.26666666666666666, 0.13801311186847082, 0.0, 0.0]
+Example 3: scores= [0.1875, 0.11180339887498951, 0.0, 0.0]
+Example 4: scores= [0.42857142857142855, 0.3144854510165755, 0.0, 0.0]
+Example 5: scores= [0.3333333333333333, 0.19802950859533483, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is jumping into the water . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young boy wearing a red shirt is playing in the dirt . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue jacket is <UNK> ##ma ##ging through a <UNK> . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is in the water and holding onto a rope . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man and a woman are walking past a group of people on the sidewalk . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 76/200 loss : 1.4082311356048824<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.15789473684210523, 0.09365858115816939, 0.0, 0.0]
+Example 3: scores= [0.16666666666666669, 0.0990147542976674, 0.0, 0.0]
+Example 4: scores= [0.42857142857142855, 0.3144854510165755, 0.0, 0.0]
+Example 5: scores= [0.5, 0.21320071635561041, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog runs through the grass . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young boy wearing a blue shirt and blue jeans is running through a grassy area . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a yellow hi - viz jacket is sitting on a wooden bench . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is in the water and holding onto their shoes . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people sit on a bench in a park . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 77/200 loss : 1.398514692252281<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.25, 0.1507556722888818, 0.0, 0.0]
+Example 3: scores= [0.17647058823529413, 0.10502100630210073, 0.0, 0.0]
+Example 4: scores= [0.42857142857142855, 0.3144854510165755, 0.0, 0.0]
+Example 5: scores= [0.3571428571428572, 0.23440361546924776, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog runs through the grass . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a boy in a blue shirt is blowing bubbles . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue jacket is standing in front of a brick building . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is in the water and holding a fishing pole . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> a man and a woman are walking past a decorative building . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 78/200 loss : 1.3943453716440788<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.26666666666666666, 0.1951800145897066, 0.1431009185587258, 0.0]
+Example 3: scores= [0.17647058823529413, 0.10502100630210073, 0.0, 0.0]
+Example 4: scores= [0.25, 0.16222142113076254, 0.0, 0.0]
+Example 5: scores= [0.35588329018524795, 0.18873561585072657, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is running through a field . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a boy in a blue shirt is playing with a toy outdoors . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue jacket is standing in front of a brick building . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person in a yellow rain ##coat is pad ##dling a yellow kay ##ak through rough waters . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people sit on a bench . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 79/200 loss : 1.3868475933963842<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2222222222222222, 0.11433239009500591, 0.0, 0.0]
+Example 3: scores= [0.12500000000000003, 0.07372097807744855, 0.0, 0.0]
+Example 4: scores= [0.42857142857142855, 0.25677629550654774, 0.0, 0.0]
+Example 5: scores= [0.2857142857142857, 0.14824986333222023, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is running through a field . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young boy wearing a blue shirt and blue jeans is holding a fishing rod . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt and jeans is standing in front of a billboard that is <UNK> against a wall . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person in a yellow rain ##coat seating on a boat . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people are walking along a beach with sea ##gul ##ls . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 80/200 loss : 1.380821983584484<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.25, 0.1507556722888818, 0.0, 0.0]
+Example 3: scores= [0.17647058823529413, 0.10502100630210073, 0.0, 0.0]
+Example 4: scores= [0.30769230769230765, 0.22645540682891918, 0.0, 0.0]
+Example 5: scores= [0.3571428571428572, 0.165748386032949, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is running through a field . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young boy wearing a blue shirt blows bubbles . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue jacket is standing in front of a brick building . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a man is standing on a hill overlooking a waterfall . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> three people are standing on a beach near a city street . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 81/200 loss : 1.374164936101832<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.2727272727272727, 0.1651445647689541, 0.0, 0.0]
+Example 3: scores= [0.25, 0.1507556722888818, 0.0, 0.0]
+Example 4: scores= [0.5454545454545454, 0.40451991747794525, 0.0, 0.0]
+Example 5: scores= [0.35588329018524795, 0.18873561585072657, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is running across a low cut field of grass with a stick in its mouth . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a boy in a blue shirt blows bubbles . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man is standing in front of a skyscraper . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is in the water and ice . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people sit on a bench . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 82/200 loss : 1.369397228363001<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.16666666666666669, 0.0990147542976674, 0.0, 0.0]
+Example 3: scores= [0.17647058823529413, 0.10502100630210073, 0.0, 0.0]
+Example 4: scores= [0.42857142857142855, 0.3144854510165755, 0.0, 0.0]
+Example 5: scores= [0.38461538461538464, 0.17902871850985821, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a dog is running through a field of tall grass . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a young boy wearing a blue shirt is blowing bubbles with a yellow bubble wand . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue jacket is standing in front of a brick building . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is in the water and holding onto their shoes . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> three people are standing on a cliff overlooking a lake . <EOS>
+=> Saving checkpoint
+
+-------------->epoch 83/200 loss : 1.3629598255971032<-------------------
+Example 1: scores= [0.9, 0.8366600265340756, 0.8067143178484033, 0.7825422900366437]
+Example 2: scores= [0.16666666666666669, 0.0990147542976674, 0.0, 0.0]
+Example 3: scores= [0.16666666666666669, 0.0990147542976674, 0.0, 0.0]
+Example 4: scores= [0.5454545454545454, 0.40451991747794525, 0.0, 0.0]
+Example 5: scores= [0.36193496721438384, 0.19075647687597008, 0.0, 0.0]
+Example 1 CORRECT: Dog on a beach by the ocean
+Example 1 OUTPUT: <SOS> a brown dog is running through the water . <EOS>
+Example 2 CORRECT: Child holding red frisbee outdoors
+Example 2 OUTPUT: <SOS> a boy in a blue shirt pour ##s sand from a bucket onto a <UNK> . <EOS>
+Example 3 CORRECT: Bus driving by parked cars
+Example 3 OUTPUT: <SOS> a man in a blue shirt is standing in front of a red brick building . <EOS>
+Example 4 CORRECT: A small boat in the ocean
+Example 4 OUTPUT: <SOS> a person is in the water and ice . <EOS>
+Example 5 CORRECT: A cowboy riding a horse in the desert
+Example 5 OUTPUT: <SOS> two people sit on a park bench . <EOS>
+=> Saving checkpoint
+os.getcwd():  /panfs/panfs.ittc.ku.edu/scratch/w880c134/Codes/image_caption_learning
+os.getcwd():  /panfs/panfs.ittc.ku.edu/scratch/w880c134/Codes/image_caption_learning
+os.getcwd():  /panfs/panfs.ittc.ku.edu/scratch/w880c134/Codes/image_caption_learning
+=> Loading checkpoint
+epoch 83 starts running...
