@@ -187,8 +187,6 @@ def load_checkpoint(checkpoint, model, optimizer):
     return step
 
 
-
-
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 
 class Vocabulary:
