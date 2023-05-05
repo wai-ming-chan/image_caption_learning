@@ -5671,7 +5671,6 @@ Example 5 CORRECT: A cowboy riding a horse in the desert
 Example 5 OUTPUT: <SOS> a couple standing on a rock next to a river . <EOS>
 => Saving checkpoint
 epoch 300 starts running...
-os.getcwd():  /panfs/panfs.ittc.ku.edu/scratch/w880c134/Codes/image_caption_learning
 => Loading checkpoint
 epoch 299 starts running...
 
