@@ -408,8 +408,7 @@ optimizer = optim.Adam(model.parameters(), lr=learning_rate)
 step = 0
 if load_model:
     #step = load_checkpoint(torch.load("my_checkpoint.pth.tar"), model, optimizer)
-    step = load_checkpoint(torch.load("my_checkpoint_20230503-121948.pth.tar"), model, optimizer)
-    step = 282
+    step = load_checkpoint(torch.load("my_checkpoint_20230505-165753.pth.tar"), model, optimizer)
 
 model.train()
 loss_epoch=[]

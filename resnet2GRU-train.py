@@ -44,7 +44,8 @@ def getBLEUscores(model, device, dataset):
     test_img1 = transform(Image.open("data/test_examples/dog.jpg").convert("RGB")).unsqueeze(0)
     references = ["<SOS> dog on a beach by the ocean . <EOS>"]
     candidates = "" + " ".join( model.caption_image(test_img1.to(device), dataset.vocab) )
-    candidates = "<SOS> Dog on a beach by the ocean . <EOS>"
+
+#    candidates = "<SOS> Dog on a beach by the ocean . <EOS>"
 #    candidates = candidates.removesuffix(" . <EOS>").removeprefix("<SOS> ")
 #    metric.update( candidates, reference)
 #    score1 = metric.compute().item()
@@ -407,7 +408,7 @@ optimizer = optim.Adam(model.parameters(), lr=learning_rate)
 
 step = 0
 if load_model:
-    step = load_checkpoint(torch.load("GRU_my_checkpoint_20230428-160309.pth.tar"), model, optimizer)
+    step = load_checkpoint(torch.load("GRU_my_checkpoint_20230505-135109.pth.tar"), model, optimizer)
 
 model.train()
 loss_epoch=[]
@@ -443,7 +444,7 @@ for epoch in range(num_epochs):
         checkpoint = {
             "state_dict": model.state_dict(),
             "optimizer": optimizer.state_dict(),
-            "step": epoch
+            "step": epoch + step
         }
         save_checkpoint(checkpoint)
 
