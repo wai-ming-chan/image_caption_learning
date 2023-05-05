@@ -44,8 +44,7 @@ def getBLEUscores(model, device, dataset):
     test_img1 = transform(Image.open("data/test_examples/dog.jpg").convert("RGB")).unsqueeze(0)
     references = ["<SOS> dog on a beach by the ocean . <EOS>"]
     candidates = "" + " ".join( model.caption_image(test_img1.to(device), dataset.vocab) )
-#    candidates = "<SOS> Dog on a beach by the ocean . <EOS>"
-
+    candidates = "<SOS> Dog on a beach by the ocean . <EOS>"
 #    candidates = candidates.removesuffix(" . <EOS>").removeprefix("<SOS> ")
 #    metric.update( candidates, reference)
 #    score1 = metric.compute().item()
@@ -171,12 +170,12 @@ def print_examples(model, device, dataset):
     model.train()
 
 
-def save_checkpoint(state, filename="my_checkpoint.pth.tar"):
+def save_checkpoint(state, filename="GRU_my_checkpoint.pth.tar"):
     print("=> Saving checkpoint")
 #    torch.save(state, filename)
 
     timestamp = time.strftime("%Y%m%d-%H%M%S")
-    filename_TT = f"my_checkpoint_{timestamp}.pth.tar"
+    filename_TT = f"GRU_my_checkpoint_{timestamp}.pth.tar"
     torch.save(state, filename_TT)
 
 
@@ -186,8 +185,6 @@ def load_checkpoint(checkpoint, model, optimizer):
     optimizer.load_state_dict(checkpoint["optimizer"])
     step = checkpoint["step"]
     return step
-
-
 
 
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
@@ -334,13 +331,16 @@ class DecoderRNN(nn.Module):
         super(DecoderRNN, self).__init__()
         self.embed = nn.Embedding(vocab_size, embed_size)
         self.lstm = nn.LSTM(embed_size, hidden_size, num_layers, batch_first=True)
+        self.gru = nn.GRU(embed_size, hidden_size, num_layers, batch_first=True)
+
         self.linear = nn.Linear(hidden_size, vocab_size)
         self.dropout = nn.Dropout(0.5)
 
     def forward(self, features, captions):
         embeddings = self.dropout(self.embed(captions))
         embeddings = torch.cat((features.unsqueeze(1), embeddings), dim=1)
-        hiddens, _ = self.lstm(embeddings)
+        # hiddens, _ = self.lstm(embeddings)
+        hiddens, _ = self.gru(embeddings)
         outputs = self.linear(hiddens)
         return outputs
 
@@ -388,7 +388,7 @@ class CNNtoRNN(nn.Module):
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-load_model = True
+load_model = False
 save_model = True
 train_CNN = True
 
@@ -407,9 +407,7 @@ optimizer = optim.Adam(model.parameters(), lr=learning_rate)
 
 step = 0
 if load_model:
-    #step = load_checkpoint(torch.load("my_checkpoint.pth.tar"), model, optimizer)
-    step = load_checkpoint(torch.load("my_checkpoint_20230503-121948.pth.tar"), model, optimizer)
-    step = 282
+    step = load_checkpoint(torch.load("GRU_my_checkpoint_20230428-160309.pth.tar"), model, optimizer)
 
 model.train()
 loss_epoch=[]
@@ -445,7 +443,7 @@ for epoch in range(num_epochs):
         checkpoint = {
             "state_dict": model.state_dict(),
             "optimizer": optimizer.state_dict(),
-            "step": epoch+step
+            "step": epoch
         }
         save_checkpoint(checkpoint)
 

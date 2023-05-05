@@ -131,6 +131,7 @@ dmypy.json
 # Dataset
 data/
 *.zip
+*.tar
 
 # checkpoint
 runs_flickr/
