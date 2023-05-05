@@ -388,7 +388,7 @@ class CNNtoRNN(nn.Module):
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-load_model = True
+load_model = False
 save_model = True
 train_CNN = True
 
