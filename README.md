@@ -12,10 +12,6 @@
   The project uses the Flickr8k dataset, which is not included in the repository. Please download the dataset and place it in the `data/flickr8k` directory with subdirectories for `images` and `captions.txt`.
 
 ## Usage
-  To train the model, run the following command from the root directory of the project:
-  ```shell
-  python main.py
-  ```
   - Train the model by runnig the file `resnet2RNN-train.ipynb` or `resnet2RNN-train.py`
   
   - Result is stored in the file `resnet-output_3e4.txt`
