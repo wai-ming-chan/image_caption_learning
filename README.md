@@ -1,7 +1,7 @@
 # Image-Caption-Learning Project
 
 ## Project Overview
-  This project (on course EECS-738-Machine-Learning 2023 Spring) focuses on generating descriptive captions for images using a combination of Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs). The main goal is to bridge the gap between visual understanding and natural language processing by training a model that can accurately describe the content of an image in English.
+  This project (on the course EECS738 Machine Learning 2023 Spring) focuses on generating descriptive captions for images using a combination of Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs). The main goal is to bridge the gap between visual understanding and natural language processing by training a model that can accurately describe the content of an image in English.
 
 ## Features
 - Utilizes a pre-trained ResNet50 model as the encoder to extract features from images.
